@@ -5,4 +5,16 @@ instructions: Use Aderyn tools to analyze the codebase.
 
 prompt: |
   Does the code assume a uniform heartbeat across all Chainlink price oracles at any point?
+
+extensions:
+- type: streamable_http
+  name: aderyn
+  uri: http://127.0.0.1:3001/mcp
+  envs: {}
+  env_keys: []
+  headers: {}
+  description: Code search tools for Solidity
+  timeout: 10000
+  bundled: null
+  available_tools: []
   
