@@ -1,0 +1,7 @@
+version: 1.0.0
+title: Check Price oracle heartbeat
+description: Check price oracle heartbeat
+instructions: Use Aderyn tools
+
+prompt: |
+  Do we assume a uniform heartbeat across all Chainlink price oracles anywhere in the code?
