@@ -12,7 +12,7 @@ $ npm install -g giget
 $ giget gh:TilakMaddy/solidity-audit-recipes/.goose .goose --force
 ```
 
-Run the above commands at the project root to import these recipes.
+Run the above commands at the project root to import the recipes from this repository into the project.
 
 ## Audit
 
