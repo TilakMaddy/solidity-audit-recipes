@@ -1,7 +1,8 @@
 version: 1.0.0
-title: Check Price oracle heartbeat
-description: Check price oracle heartbeat
-instructions: Use Aderyn tools
+title: Price Oracle Heartbeat Assumption
+description: Detects any assumptions that all Chainlink price oracles share the same update frequency (heartbeat).
+instructions: Use Aderyn tools to analyze the codebase.
 
 prompt: |
-  Do we assume a uniform heartbeat across all Chainlink price oracles anywhere in the code?
+  Does the code assume a uniform heartbeat across all Chainlink price oracles at any point?
+  
