@@ -9,7 +9,7 @@ A collection of [Goose recipes](https://block.github.io/goose/docs/quickstart).
 ```bash
 $ npm install -g giget
 
-$ giget gh:TilakMaddy/solidity-audit-recipes . --force
+$ giget gh:TilakMaddy/solidity-audit-recipes/.goose .goose --force
 ```
 
 Run the above commands at the project root to import these recipes.
