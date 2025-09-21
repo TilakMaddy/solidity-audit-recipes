@@ -1,0 +1,20 @@
+version: 1.0.0
+title: Withdraw Function Pause Check
+description: Detects withdraw functions that may bypass the intended pause mechanism, including cases where a custom pause modifier exists but is not applied.
+instructions: Use Aderyn tools to analyze the codebase.
+
+prompt: |
+  Search for ALL pause-related modifiers and functions, including domain-specific pauses (e.g., withdrawal pause, staking pause, etc.), not just general pause modifiers. For each pause mechanism found, identify ALL functions that should logically be affected by that specific pause and verify each one has the appropriate modifier. Look for functions with similar names or functionality (e.g., withdraw, claim, transfer, burn, mint) and ensure they have consistent pause modifier coverage. Check for multiple levels of pause controls (general pause vs. specific operation pauses) and ensure functions respect all applicable pause levels. Look for pause control functions and then systematically verify all related operational functions implement those pause checks. 
+
+extensions:
+- type: streamable_http
+  name: aderyn
+  uri: http://127.0.0.1:3001/mcp
+  envs: {}
+  env_keys: []
+  headers: {}
+  description: Code search tools for Solidity
+  timeout: 10000
+  bundled: null
+  available_tools: []
+  
