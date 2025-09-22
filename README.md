@@ -37,6 +37,12 @@ In the **Extension** tab, add Aderyn's MCP server. Fill in the name, type, descr
 
 ### Step 5
 
+Disable other built in extensions
+
+<img height="620" alt="Screenshot 2025-09-22 at 11 34 09 AM" src="https://github.com/user-attachments/assets/30aafa44-b8c9-49ad-a30d-baab9d989f52" />
+
+### Step 6
+
 Then from the **Recipes** tab, select **Use** on the ones you are interested in.
 
 <img width="720" alt="recipes" src="https://github.com/user-attachments/assets/845e61f3-b5b0-4cc6-a451-dcc3e82d53f8" />
