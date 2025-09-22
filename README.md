@@ -46,3 +46,9 @@ Disable other built in extensions
 Then from the **Recipes** tab, select **Use** on the ones you are interested in.
 
 <img width="720" alt="recipes" src="https://github.com/user-attachments/assets/845e61f3-b5b0-4cc6-a451-dcc3e82d53f8" />
+
+### Step 7
+
+Click on Trust and execute
+
+<img width="1013" height="761" alt="Screenshot 2025-09-22 at 11 35 05 AM" src="https://github.com/user-attachments/assets/d85967dc-ea1f-4c38-bfa6-75462bf49a20" />
